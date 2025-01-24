@@ -1,0 +1,8 @@
+<h1>Parent Component</h1>
+<div>
+  <h2>Counter: {{child.counter}}</h2>
+  <p #title>This is paragraph</p>
+  <p #title>This is paragraph 2</p>
+  <app-child #child></app-child>
+  <button (click)="increment()">Increment Counter</button>
+</div>
